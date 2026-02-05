@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+}
+
+body {
+  background: #0a0b6d;
+  color: #ffffff;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 80px;
+  align-items: center;
+}
+
+.navbar nav a {
+  margin: 0 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 8px 18px;
+  border-radius: 20px;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 50px 50px;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  max-width: 600px;
+  margin: auto;
+}
+
+.hero-buttons {
+  margin: 30px 0;
+}
+
+.btn-dark {
+  background: black;
+  color: white;
+  padding: 12px 22px;
+  border-radius: 20px;
+  border: none;
+}
+
+.btn-primary {
+  background: #4f5dff;
+  color: white;
+  padding: 12px 22px;
+  border-radius: 20px;
+  border: none;
+  margin-left: 10px;
+}
+
+.hero-image {
+  width: 60%;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+
+/* ABOUT */
+.about {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.about-image {
+  width: 300px;
+  border-radius: 20px;
+}
+
+/* PARTNERS */
+.partners {
+  background: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.partners img {
+  height: 80px;
+}
+
+/* PLANS */
+.plans {
+  display: flex;
+  padding: 100px;
+  gap: 80px;
+}
+
+.plan-card {
+  background: white;
+  color: black;
+  padding: 40px;
+  border-radius: 20px;
+  width: 280px;
+}
+
+.price {
+  display: block;
+  margin-top: 15px;
+  color: #4f5dff;
+}
+
+/* TESTIMONIAL */
+.testimonial {
+  display: flex;
+  padding: 100px;
+  gap: 80px;
+}
+
+.testimonial img {
+  width: 300px;
+  border-radius: 20px;
+}
+
+/* CONTACT */
+.contact {
+  display: flex;
+  padding: 100px;
+  gap: 80px;
+}
+
+.contact-form {
+  background: white;
+  color: black;
+  padding: 40px;
+  border-radius: 20px;
+  width: 400px;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+/* FOOTER */
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 80px;
+  font-size: 14px;
+}
